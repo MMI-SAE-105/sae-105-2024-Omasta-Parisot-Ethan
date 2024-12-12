@@ -1,0 +1,7 @@
+nav.header__menu {
+    display: flex;
+}
+
+nav.header__menu li {
+    color: white;
+}
