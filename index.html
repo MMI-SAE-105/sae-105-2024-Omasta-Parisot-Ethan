@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Page d'accueil</title>
+    <script> src="js/script.js"</script>
+    <link rel="stylesheet" type="text/css" href="src/css/Page d'accueil.css">
     <link rel="icon" type="image/png" href="assets/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
     <link rel="shortcut icon" href="/assets/favicon.ico" />
@@ -16,8 +18,10 @@
             <a href="index.html" class="header__logo cta">
                 <img src="media/group_2.webp" alt="Cliquable pour page d'accueil" class="header__logo-img"></a>
             <img src="media/search_3.webp" alt="pour chercher un article  en particulier" class="header__search-icon">
-            <nav class="header__menu">
-                <ul class="menu__list list-unstyled">
+            <nav id="Myheader__menu" class="header__menu">
+                <a id="closebtn" href="#" class="close">×
+                </a>
+                <ul>
                     <li class="menu__item">
                         <a href="index.html" class="menu__link">Page d'accueil</a></li>
                     <li class="menu__item">
@@ -32,6 +36,13 @@
                         <a href="A propos.html" class="menu__link">A propos</a></li>
                 </ul>
             </nav>
+            <a href="#" id="openbtn">
+            <span class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            </a>
         </header>
     </div>
     <div class="presentation-container">
@@ -77,9 +88,11 @@
     <div class="cta-section-container">
         <section class="cta-section">
             <p class="cta-section__text"> <b> Si vous vous êtes identifié à notre présentation, n’hésitez pas à acheter votre billet en cliquant sur ce bouton ! </b></p>
+            <div class="cta-section__button-second">
             <button class="cta-section__button">
-                <a href="Billetterie.html" class="cta-section__button">Billetterie</a> 
+                <a href="Billetterie.html" class="cta-section__button"> <div class="arrow"></div>Billetterie</a> 
             </button>
+        </div>
         </section>
     </div>
     <div class="footer-container">
@@ -87,12 +100,16 @@
             <img src="media/designer_5_1.webp" alt="logo festiv'Halloween" class="footer_logo">
             <p class="footer__info"> Festiv'Halloween 
                 <br> Montbéliard, 25200</p>
-            <p class="footer__address"> Menu 
+            <p class="footer__sections"> <b>MENU
+                <br> <br>MENTIONS LEGALES
+                <br>ARCHIVES
+                <br>CONTACTS & ACCES</p>
+            <p class="footer__address"> CONTACT 
                 <br> 4 Place Lucien Tharradin 
                 <br> 25200 Montbéliard 
                 <br> 03 81 66 83 90 
                 <br> festivhalloween@gmail.com</p>
-            <p class="footer__social-title"> Nous suivre </p>
+            <p class="footer__social-title"> NOUS SUIVRE </b></p>
             <div class="footer__social">
                 <img src="media/instagram_3.webp" alt="lien vers notre compte instagram" class="footer__social-icon">
                 <img src="media/tiktok_891x1024_3.webp" alt="lien vers notre compte tiktok" class="footer__social-icon">
