@@ -11,94 +11,129 @@
     <link rel="manifest" href="/site.webmanifest" />
 </head>
 <body>
-    <header class="header">
-        <a href="index.html" class="cta">
-            <img src="media/group_2.webp" alt="Cliquable pour page d'accueil"></a>
-        <img src="media/cross_1.webp" alt="interaction pour retourner en arrière" class="rturn">
-        <img src="media/search_3.webp" alt="pour chercher un article  en particulier" class="srch">
-        <nav class="header__menu">
-            <ul class="menu__list list-unstyled">
-                <li class="menu__item">
-                    <a href="#">Page d'accueil</a></li>
-                <li class="menu__item">
-                    <a href="#">Programme</a></li>
-                <li class="menu__item">
-                    <a href="#">Billetterie</a></li>
-                <li class="menu__item">
-                    <a href="#">Films</a></li>
-                <li class="menu__item">
-                    <a href="#">Contact</a></li>
-                <li class="menu__item">
-                    <a href="#">A propos</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
+    <div class="header-container">
+        <header class="header">
+            <a href="index.html" class="header__logo cta">
+                <img src="media/group_2.webp" alt="Cliquable pour page d'accueil" class="header__logo-img"></a>
+            <img src="media/search_3.webp" alt="pour chercher un article  en particulier" class="header__search-icon">
+            <nav class="header__menu">
+                <ul class="menu__list list-unstyled">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Page d'accueil</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Programme</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Billetterie</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Films</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Contact</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">A propos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section class="films-section">
         <h1> Films </h1>
         <p> Ici, vous pourrez retrouver la liste des films que l’on diffusera tout au long du festival et un court résumé de ces derniers.</p>
     </section>
-    <div>
-    <section>
-        <article>
+    <div class="films-container">
+    <section class="film-list">
+        <article class="film">
+            <div class="film-image">
             <img src="media/affiche_film_d_horreur_4_1.webp" alt="affiche du film thanksgiving">
+            </div>
+            <div class="film-description">
             <p> Un an après qu’un Black Friday a viré au chaos, un mystérieux tueur s’inspire de la fête traditionnelle de Thanksgiving et terrorise la ville de Plymouth (Massachussetts), berceau de la célèbre fête. Alors que les habitants sont éliminés les uns après les autres, ces meurtres qui semblaient aléatoires, révèlent un plan plus vaste et sinistre. Les habitants découvriront-ils le tueur et survivront-ils à la fête... ou deviendront-ils les invités de son dîner de Thanksgiving complètement tordu ? </p>
             <p> Pour plus de détails, cliquez ici</p>
-            <button> Allocine </button>
+            <button class="film-link"> Allocine </button>
+            </div>
         </article>
-        <article>
+        <article class="film">
+            <div class="film-image">
             <img src="media/affiche_film_d_horreur_2_1.webp" alt="affiche du film smile">
+            </div>
+            <div class="film-description">
             <p> Après avoir été témoin d'un incident traumatisant impliquant l’une de ses patientes, la vie de la psychiatre Rose Cotter tourne au cauchemar. Terrassée par une force mystérieuse, Rose va devoir se confronter à son passé pour tenter de survivre…</p>
             <p> Pour plus de détails, cliquez ici</p>
-            <button> Allocine </button>
+            <button class="film-link"> Allocine </button>
+            </div>
         </article>
-        <article>
+        <article class="film">
+            <div class="film-image">
             <img src="media/affiche_film_d_horreur_1.webp" alt="affiche du film ça">
+            </div>
+            <div class="film-description">
             <p> Vingt-sept ans après les événements de la première attaque, le clown diabolique Pennywise revient hanter les rues de Derry, une ville paisible dans le Maine. Les membres du Club des Ratés, désormais adultes, se retrouvent alors après avoir été séparés les uns des autres depuis longtemps.</p>
             <p> Pour plus de détails, cliquez ici</p>
-            <button> Allocine </button>
+            <button class="film-link"> Allocine </button>
+            </div>
         </article>
-        <article>
+        <article class="film">
+            <div class="film-image">
             <img src="media/affiche_film_d_horreur_3_1.webp" alt="affiche du film the exorcist">
+            </div>
+            <div class="film-description">
             <p> Chris McNeill, actrice de télévision, s'inquiète d'entendre de plus en plus fréquemment des bruits bizarres dans la chambre de sa fillette, Regan. Celle-ci se plaint d'avoir des difficultés à dormir à cause des mouvements spasmodiques qui ébranlent son lit. D'abord incrédule, Chris vérifie bientôt les dires de sa fille. Celle-ci se transforme peu à peu en un véritable monstre</p>
             <p> Pour plus de détails, cliquez ici</p>
-            <button> Allocine </button>
+            <button class="film-link"> Allocine </button>
+            </div>
         </article>
-        <article> 
+        <article class="film">
+            <div class="film-image"> 
             <img src="media/affiche_film_d_horreur_5_1.webp" alt="affiche du film krampus">
+            </div>
+            <div class="film-description">
             <p> Quand Max voit sa famille peu exemplaire se disputer à l'approche de Noël, le garçon décide d'ignorer la célébration, sans se rendre compte que ce manquement à la tradition va provoquer les foudres de Krampus, un démon ancestral bien décidé à punir les réfractaires. La situation tourne en enfer quand les figures de Noël prennent monstrueusement vie, lançant l'assaut sur la maison de Max et forçant les membres de sa famille à s'entraider s'ils espèrent sauver leur peau.</p>
             <p> Pour plus de détails, cliquez ici</p>
-            <button> Allocine </button>
+            <button class="film-link"> Allocine </button>
+            </div>
         </article>
-        <article>
+        <article class="film">
+            <div class="film-image">
             <img src="media/affiche_film_d_horreur_6_1.webp" alt="affiche du film the conjuring annabelle">
+            </div>
+            <div class="film-description">
             <p> Été 1969, John et Mia, qui attendent leur premier enfant, viennent d'emménager dans une maison à Santa Monica. John, qui ne sait comment choyer son épouse, lui a offert une poupée ancienne. La nuit suivante, ils sont sauvagement attaqués par un couple lié à une secte satanique. La police leur porte secours rapidement, abattant l'homme tandis que sa compagne se tranche la gorge, laissant couler quelques gouttes de sang dans l'œil de la poupée.</p>
             <p> Allocine </p>
-            <button> Allocine</button>
+            <button class="film-link"> Allocine</button>
+            </div>
         </article>
-        <article>
+        <article class="film">
+            <div class="film-image">
             <img src="media/affiche_film_d_horreur_7_1.webp" alt="affiche du film terrifier 3">
+            </div>
+            <div class="film-description">
             <p> Après avoir survécu au massacre d'Halloween perpétré par Art Le Clown, Sienna et son frère tentent de reconstruire leur vie. Alors que les fêtes de fin d'année approchent, ils s'efforcent de laisser derrière eux les horreurs passées. Cependant, au moment où ils se croyaient enfin à l'abri, Art refait surface, bien décidé à transformer Noël en un véritable cauchemar.</p>
             <p> Pour plus de détails, cliquez ici</p>
-            <button> Allocine </button>
+            <button class="film-link"> Allocine </button>
+            </div>
         </article>
+        </section>
+        <div class="tickets-section">
         <p> Si vous êtes convaincu pour venir, cliquez ici pour accéder à la billetterie</p>
-        <button> <p> Billetterie </p>
+        <button class="tickets-button"> <p> Billetterie </p>
         <a href="Billetterie.html"></a></button>
     </section>
     </div>
-    <footer>
-        <img src="media/designer_5_1.webp" alt="logo festiv'Halloween">
-        <p> Festiv'Halloween 
-            <br> Montbéliard, 25200</p>
-        <p> Menu 
-            <br> 4 Place Lucien Tharradin 
-            <br> 25200 Montbéliard 
-            <br> 03 81 66 83 90 
-            <br> festivhalloween@gmail.com</p>
-        <p> Nous suivre </p>
-        <img src="media/instagram_3.webp" alt="lien vers notre compte instagram">
-        <img src="media/tiktok_891x1024_3.webp" alt="lien vers notre compte tiktok">
-        <img src="media/facebook_2.webp" alt="lien vers notre compte facebook">
-    </footer>
+    <div class="footer-container">
+        <footer class="footer">
+            <img src="media/designer_5_1.webp" alt="logo festiv'Halloween" class="footer_logo">
+            <p class="footer__info"> Festiv'Halloween 
+                <br> Montbéliard, 25200</p>
+            <p class="footer__address"> Menu 
+                <br> 4 Place Lucien Tharradin 
+                <br> 25200 Montbéliard 
+                <br> 03 81 66 83 90 
+                <br> festivhalloween@gmail.com</p>
+            <p class="footer__social-title"> Nous suivre </p>
+            <div class="footer__social">
+                <img src="media/instagram_3.webp" alt="lien vers notre compte instagram" class="footer__social-icon">
+                <img src="media/tiktok_891x1024_3.webp" alt="lien vers notre compte tiktok" class="footer__social-icon">
+                <img src="media/facebook_2.webp" alt="lien vers notre compte facebook"class="footer__social-icon">
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

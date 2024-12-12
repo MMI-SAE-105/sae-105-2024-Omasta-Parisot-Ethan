@@ -11,62 +11,76 @@
     <link rel="manifest" href="/site.webmanifest" />
 </head>
 <body>
-    <header class="header">
-        <a href="index.html" class="cta">
-            <img src="media/group_2.webp" alt="Cliquable pour page d'accueil"></a>
-        <img src="media/cross_1.webp" alt="interaction pour retourner en arrière" class="rturn">
-        <img src="media/search_3.webp" alt="pour chercher un article  en particulier" class="srch">
-        <nav class="header__menu">
-            <ul class="menu__list list-unstyled">
-                <li class="menu__item">
-                    <a href="#">Page d'accueil</a></li>
-                <li class="menu__item">
-                    <a href="#">Programme</a></li>
-                <li class="menu__item">
-                    <a href="#">Billetterie</a></li>
-                <li class="menu__item">
-                    <a href="#">Films</a></li>
-                <li class="menu__item">
-                    <a href="#">Contact</a></li>
-                <li class="menu__item">
-                    <a href="#">A propos</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="header-container">
+        <header class="header">
+            <a href="index.html" class="header__logo cta">
+                <img src="media/group_2.webp" alt="Cliquable pour page d'accueil" class="header__logo-img"></a>
+            <img src="media/search_3.webp" alt="pour chercher un article  en particulier" class="header__search-icon">
+            <nav class="header__menu">
+                <ul class="menu__list list-unstyled">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Page d'accueil</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Programme</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Billetterie</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Films</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Contact</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">A propos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
     <section>
+        <div class="header">
         <h1> Tarifs </h1>
         <h2> Du 29 au 31 août 2024 !</h2>
     </section>
     <section>
+        <div class="description">
         <p> On projettera différents types de films d’horreur, qui dureront de 22h a 4h, toute la durée du festival pendant 3 jours à la rue piétonne de Montbéliard. </p>
         <p> Prévoyez un hébergement au préalable, nous n’avons pas de chambres à vous proposer pour ce festival.</p>
         <p> Pour vous rendre au festival, vous pourrez user des bus prévu à cette occasion, ou aussi du covoiturage pour profiter du festival ensemble une fois arrivé !</p>
     </section>
-    <section>
+    <section>   
+        <div class="pricing">
         <p> Nous disposons de 2 tarifs différents pour satisfaire petits et grands </p>
+        <div class="student-pricing">
         <h2> Tarif étudiants et - de 26 ans </h2>
-        <button> Acheter maintenant </button>
+        <button class="buy-button"> Acheter maintenant </button>
+        </div>
+        <div class="normal-pricing">
         <h2> Tarif normal </h2>
-        <button> Acheter maintenant </button>
+        <button class="buy-button"> Acheter maintenant </button>
+        </div>
+        </div>
     </section>
     <section>
+        <div class="details">
         <p> Le tarif basique coûte 29,99€ pour avoir accès au festival les 3 jours </p>
         <p> Le tarif réservés aux étudiants et aux personnes de moins de 26 ans possède une réduction comparé au tarif basique ce qui le fait passé de 29,99€ à seulement 18,99€ !</p>
         <h3> N'hésitez plus </h3>
     </section>
-    <footer>
-        <img src="media/designer_5_1.webp" alt="logo festiv'Halloween">
-        <p> Festiv'Halloween 
-            <br> Montbéliard, 25200</p>
-        <p> Menu 
-            <br> 4 Place Lucien Tharradin 
-            <br> 25200 Montbéliard 
-            <br> 03 81 66 83 90 
-            <br> festivhalloween@gmail.com</p>
-        <p> Nous suivre </p>
-        <img src="media/instagram_3.webp" alt="lien vers notre compte instagram">
-        <img src="media/tiktok_891x1024_3.webp" alt="lien vers notre compte tiktok">
-        <img src="media/facebook_2.webp" alt="lien vers notre compte facebook">
-    </footer>
+    <div class="footer-container">
+        <footer class="footer">
+            <img src="media/designer_5_1.webp" alt="logo festiv'Halloween" class="footer_logo">
+            <p class="footer__info"> Festiv'Halloween 
+                <br> Montbéliard, 25200</p>
+            <p class="footer__address"> Menu 
+                <br> 4 Place Lucien Tharradin 
+                <br> 25200 Montbéliard 
+                <br> 03 81 66 83 90 
+                <br> festivhalloween@gmail.com</p>
+            <p class="footer__social-title"> Nous suivre </p>
+            <div class="footer__social">
+                <img src="media/instagram_3.webp" alt="lien vers notre compte instagram" class="footer__social-icon">
+                <img src="media/tiktok_891x1024_3.webp" alt="lien vers notre compte tiktok" class="footer__social-icon">
+                <img src="media/facebook_2.webp" alt="lien vers notre compte facebook"class="footer__social-icon">
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

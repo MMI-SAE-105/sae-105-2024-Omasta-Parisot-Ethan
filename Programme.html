@@ -11,60 +11,69 @@
     <link rel="manifest" href="/site.webmanifest" />
 </head>
 <body>
-    <header class="header">
-        <a href="index.html" class="cta">
-            <img src="media/group_2.webp" alt="Cliquable pour page d'accueil"></a>
-        <img src="media/cross_1.webp" alt="interaction pour retourner en arrière" class="rturn">
-        <img src="media/search_3.webp" alt="pour chercher un article  en particulier" class="srch">
-        <nav class="header__menu">
-            <ul class="menu__list list-unstyled">
-                <li class="menu__item">
-                    <a href="#">Page d'accueil</a></li>
-                <li class="menu__item">
-                    <a href="#">Programme</a></li>
-                <li class="menu__item">
-                    <a href="#">Billetterie</a></li>
-                <li class="menu__item">
-                    <a href="#">Films</a></li>
-                <li class="menu__item">
-                    <a href="#">Contact</a></li>
-                <li class="menu__item">
-                    <a href="#">A propos</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h1> Programme </h1>
-        <p> Durant ce festival sur le thème halloween, nous diffuserons bon nombre de films, de genre horreur pour passer une bonne fête d’horreur.</p>
-        <img src="media/image_2.webp" alt="image représentant des citrouilles pour halloween">
+    <div class="header-container">
+        <header class="header">
+            <a href="index.html" class="header__logo cta">
+                <img src="media/group_2.webp" alt="Cliquable pour page d'accueil" class="header__logo-img"></a>
+            <img src="media/search_3.webp" alt="pour chercher un article  en particulier" class="header__search-icon">
+            <nav class="header__menu">
+                <ul class="menu__list list-unstyled">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Page d'accueil</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Programme</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Billetterie</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Films</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Contact</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">A propos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main class="main content">
+        <section class="section programme">
+            <h1 class="section__title"> Programme </h1>
+            <p class="section__description"> Durant ce festival sur le thème halloween, nous diffuserons bon nombre de films, de genre horreur pour passer une bonne fête d’horreur.</p>
+            <img src="media/image_2.webp" alt="image représentant des citrouilles pour halloween" class="section__image">
+        </section>
+        <section class="section details">
+            <p class="section__description"> Pour célébrer halloween de la manière la plus adaptée, nous diffuserons donc uniquement des films de genre horreur et le meilleur temps pour se faire peur est la nuit, c’est pour cette raison que le festival sera ouvert à partir de 18h et le dernier film se finira dans les alentours de 6h du matin.</p>
+            <img src="media/image_3.webp" alt="image représentant un festival de nuit" class="section__description">
+        </section>
+        <section class="section download">
+            <p class="section__description"> Pour voir le programme des films, vous pouvez le télécharger ici</p>
+            <p class="section__file"> <b> Programme.pdf</b></p>
+            <img src="media/image_4.webp" alt="fichier pdf à télécharger (non fonctionnel)" class="section__image">
+        </section>
+        <section class="section summary">
+            <p class="section__description"> Pour voir un court résumé des films proposés, cliquez ici </p>
+            <button class="btn btn-primary"> <p> Films </p>
+            <a href="Films.html" class="btn__link"></a>
+            </button>
+        </div>
     </section>
-    <section>
-        <p> Pour célébrer halloween de la manière la plus adaptée, nous diffuserons donc uniquement des films de genre horreur et le meilleur temps pour se faire peur est la nuit, c’est pour cette raison que le festival sera ouvert à partir de 18h et le dernier film se finira dans les alentours de 6h du matin.</p>
-        <img src="media/image_3.webp" alt="image représentant un festival de nuit">
-    </section>
-    <section>
-        <p> Pour voir le programme des films, vous pouvez le télécharger ici</p>
-        <p> <b> Programme.pdf</b></p>
-        <img src="media/image_4.webp" alt="fichier pdf à télécharger (non fonctionnel)">
-    </section>
-    <section>
-        <p> Pour voir un court résumé des films proposés, cliquez ici </p>
-        <button> <p> Films </p>
-        <a href="Films.html"></a></button>
-    </section>
-    <footer>
-        <img src="media/designer_5_1.webp" alt="logo festiv'Halloween">
-        <p> Festiv'Halloween 
-            <br> Montbéliard, 25200</p>
-        <p> Menu 
-            <br> 4 Place Lucien Tharradin 
-            <br> 25200 Montbéliard 
-            <br> 03 81 66 83 90 
-            <br> festivhalloween@gmail.com</p>
-        <p> Nous suivre </p>
-        <img src="media/instagram_3.webp" alt="lien vers notre compte instagram">
-        <img src="media/tiktok_891x1024_3.webp" alt="lien vers notre compte tiktok">
-        <img src="media/facebook_2.webp" alt="lien vers notre compte facebook">
-    </footer>
+</main>
+    <div class="footer-container">
+        <footer class="footer">
+            <img src="media/designer_5_1.webp" alt="logo festiv'Halloween" class="footer_logo">
+            <p class="footer__info"> Festiv'Halloween 
+                <br> Montbéliard, 25200</p>
+            <p class="footer__address"> Menu 
+                <br> 4 Place Lucien Tharradin 
+                <br> 25200 Montbéliard 
+                <br> 03 81 66 83 90 
+                <br> festivhalloween@gmail.com</p>
+            <p class="footer__social-title"> Nous suivre </p>
+            <div class="footer__social">
+                <img src="media/instagram_3.webp" alt="lien vers notre compte instagram" class="footer__social-icon">
+                <img src="media/tiktok_891x1024_3.webp" alt="lien vers notre compte tiktok" class="footer__social-icon">
+                <img src="media/facebook_2.webp" alt="lien vers notre compte facebook"class="footer__social-icon">
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

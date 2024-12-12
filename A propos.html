@@ -11,51 +11,58 @@
     <link rel="manifest" href="/site.webmanifest" />
 </head>
 <body>
-    <header class="header">
-        <a href="index.html" class="cta">
-            <img src="media/group_2.webp" alt="Cliquable pour page d'accueil"></a>
-        <img src="media/cross_1.webp" alt="interaction pour retourner en arrière" class="rturn">
-        <img src="media/search_3.webp" alt="pour chercher un article  en particulier" class="srch">
-        <nav class="header__menu">
-            <ul class="menu__list list-unstyled">
-                <li class="menu__item">
-                    <a href="#">Page d'accueil</a></li>
-                <li class="menu__item">
-                    <a href="#">Programme</a></li>
-                <li class="menu__item">
-                    <a href="#">Billetterie</a></li>
-                <li class="menu__item">
-                    <a href="#">Films</a></li>
-                <li class="menu__item">
-                    <a href="#">Contact</a></li>
-                <li class="menu__item">
-                    <a href="#">A propos</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h1> A propos</h1>
-        <h2> Bienvenue au Festiv'Halloween</h2>
-        <p> Plongez dans l'univers mystérieux et envoûtant de notre festival, où la magie de la saison rencontre des sensations fortes et des aventures inoubliables. Chaque année, nous transformons Montbéliard en un royaume féerique peuplé de créatures mystérieuses, de décors saisissants et d'activités à couper le souffle.</p>
-        <img src="media/image_5.webp" alt="image représentant le festiv'halloween de nuit">
+    <div class="header-container">
+        <header class="header">
+            <a href="index.html" class="header__logo cta">
+                <img src="media/group_2.webp" alt="Cliquable pour page d'accueil" class="header__logo-img"></a>
+            <img src="media/search_3.webp" alt="pour chercher un article  en particulier" class="header__search-icon">
+            <nav class="header__menu">
+                <ul class="menu__list list-unstyled">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Page d'accueil</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Programme</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Billetterie</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Films</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Contact</a></li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">A propos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section class="section-about">
+        <h1 class="title"> A propos</h1>
+        <h2 class="subtitle"> Bienvenue au Festiv'Halloween</h2>
+        <p class="description"> Plongez dans l'univers mystérieux et envoûtant de notre festival, où la magie de la saison rencontre des sensations fortes et des aventures inoubliables. Chaque année, nous transformons Montbéliard en un royaume féerique peuplé de créatures mystérieuses, de décors saisissants et d'activités à couper le souffle.</p>
+        <div class="image-container">
+        <img src="media/image_5.webp" alt="image représentant le festiv'halloween de nuit" class="festiv-image">
+        </div>
     </section>
-    <section>
-        <h2> Notre Vision </h2>
-        <p> Nous croyons en l’importance de réunir les gens autour d’un événement festif qui célèbre l’imagination, la créativité et les frissons. Notre mission est de créer un espace où petits et grands peuvent explorer leurs craintes et leurs rêves tout en partageant des moments inoubliables.</p>
+    <section class="section-vision">
+        <h2 class="vision-title"> Notre Vision </h2>
+        <p class="vision-description"> Nous croyons en l’importance de réunir les gens autour d’un événement festif qui célèbre l’imagination, la créativité et les frissons. Notre mission est de créer un espace où petits et grands peuvent explorer leurs craintes et leurs rêves tout en partageant des moments inoubliables.</p>
     </section>
-    <footer>
-        <img src="media/designer_5_1.webp" alt="logo festiv'Halloween">
-        <p> Festiv'Halloween 
-            <br> Montbéliard, 25200</p>
-        <p> Menu 
-            <br> 4 Place Lucien Tharradin 
-            <br> 25200 Montbéliard 
-            <br> 03 81 66 83 90 
-            <br> festivhalloween@gmail.com</p>
-        <p> Nous suivre </p>
-        <img src="media/instagram_3.webp" alt="lien vers notre compte instagram">
-        <img src="media/tiktok_891x1024_3.webp" alt="lien vers notre compte tiktok">
-        <img src="media/facebook_2.webp" alt="lien vers notre compte facebook">
-    </footer>
+    <div class="footer-container">
+        <footer class="footer">
+            <img src="media/designer_5_1.webp" alt="logo festiv'Halloween" class="footer_logo">
+            <p class="footer__info"> Festiv'Halloween 
+                <br> Montbéliard, 25200</p>
+            <p class="footer__address"> Menu 
+                <br> 4 Place Lucien Tharradin 
+                <br> 25200 Montbéliard 
+                <br> 03 81 66 83 90 
+                <br> festivhalloween@gmail.com</p>
+            <p class="footer__social-title"> Nous suivre </p>
+            <div class="footer__social">
+                <img src="media/instagram_3.webp" alt="lien vers notre compte instagram" class="footer__social-icon">
+                <img src="media/tiktok_891x1024_3.webp" alt="lien vers notre compte tiktok" class="footer__social-icon">
+                <img src="media/facebook_2.webp" alt="lien vers notre compte facebook"class="footer__social-icon">
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
