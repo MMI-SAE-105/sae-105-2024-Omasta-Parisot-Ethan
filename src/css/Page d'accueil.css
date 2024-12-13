@@ -98,6 +98,11 @@ ul li a:hover {
     padding-left: 35px;
 }
 
+.header__search-icon {
+    margin-right: 57px;
+    margin-bottom: 7px;
+}
+
 nav .burger-icon {
     width: 40px;
     height: 5px;
@@ -260,9 +265,10 @@ nav .burger-icon {
 
 .carousel-container {
     display: flex;
-    overflow: hidden; /* Empêche les éléments de déborder */
-    max-width: 80%; /* Limite la largeur du carrousel à 80% de la largeur de la fenêtre */
-    margin: 0 auto; /* Centre le carrousel horizontalement */
+    overflow: hidden; 
+    max-width: 80%; 
+    margin: 0 auto; 
+    transition: transform 0.5s ease-in-out;
 }
 
 .orange-bar {
@@ -302,16 +308,13 @@ nav .burger-icon {
     line-height: 25px;
 }
 
-.festival-info {
-    
-}
-
 .festival-info__text {
     color: white;
-    margin-left: 200px;
-    margin-bottom: 10px;
+    margin-left: 28px;
+    margin-bottom: 40px;
+    margin-right: 20px;
     font-family: "Mulish";
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .schedule__text {
