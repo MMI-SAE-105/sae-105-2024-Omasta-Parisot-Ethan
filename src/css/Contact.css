@@ -157,7 +157,79 @@ nav .burger-icon {
 
 .orange-bar-1 {
     margin-top: -35px;
-    margin-left: 57px;
-    width: 70%;
-    height: 10px;
+    margin-left: 25px;
+    width: 29%;
+    height: 13px;
+    margin-bottom: 60px;
+}
+
+.cta-section__button a{
+    text-decoration: none;
+    color: white;
+    border: 3px solid #F56128;
+}
+
+.cta-section__button {
+    background-color: #F56128;
+    border: 3px solid white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13px;
+}
+
+.cta-section__button-second {
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.arrow {
+    background: white;
+    height: 0.1em;
+    width: 1.5em;
+    margin-right: 1em;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.arrow::before,
+.arrow::after {
+    position: absolute;
+    content: "";
+    background: white;
+    height: 0.1em;
+    width: 0.4em;
+    right: 0;
+    top: 0;
+}
+
+.arrow::before {
+    transform: rotate(45deg);
+    transform-origin: right bottom;
+}
+
+.arrow::after {
+    transform: rotate(-45deg);
+    transform-origin: right top;
+}
+
+.cta-section__button:hover .arrow {
+    width: 2em;
+}
+
+.contact__title {
+    color: white;
+    margin-left: 28px;
+}
+
+.form-group {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    border-radius: 4px;
 }
