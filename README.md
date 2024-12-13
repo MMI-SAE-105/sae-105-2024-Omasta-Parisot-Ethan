@@ -7,6 +7,7 @@
 - PRÉNOM : Ethan
 - GROUPE : MMI1C1
 - URL du site : https://festivhalloween-omastaparisotethan-c1.netlify.app/
+- URL Infomaniak : https://sae-105.ethan-omastaparisot.com/
 - URL FIGMA : https://www.figma.com/design/bdEphNwLHd0N0HAN7ejuao/SAE-103-Omasta-Parisot-Ethan-MMI1-C1?node-id=1-3&node-type=canvas&m=dev
 
 ## Sujet
