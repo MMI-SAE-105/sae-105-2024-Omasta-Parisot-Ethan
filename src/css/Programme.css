@@ -1,0 +1,256 @@
+@font-face {
+    font-family: "Space Mono";
+    src: url(/fonts/SpaceMono-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Mulish";
+    src: url(/fonts/Mulish-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Irish Grover";
+    src: url(/fonts/IrishGrover-Regular.ttf) format("truetype");
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Space Mono";
+    background-color: #232323;
+}
+
+.header {
+    font-family: "Space Mono";
+    background: linear-gradient(#ffcc66, #cc9933);
+    height: 100px;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+ul li a {
+    color: white;
+    transition: 0.3s;
+}
+
+ul li a:hover {
+    color: #cc9933;
+}
+
+.header__menu li a{
+    text-decoration: none;
+}
+
+.header__menu {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: #232323;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+}
+
+.header__menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header__menu.close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 22px;
+}
+
+.burger-icon span {
+    display: block;
+    width: 23px;
+    height: 2px;
+    background-color: black;
+    margin: 5px 23px;
+}
+
+.header__logo-cta {
+    margin-left: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__menu.menu__item {
+    display: grid;
+    position: absolute;
+    background: #232323;
+    width: 100%;
+    top: 75px;
+    left: 0;
+    z-index: -1;
+    transition: 0.6s;
+}
+
+.header__menu.menu__item.menu__link {
+    padding-left: 35px;
+}
+
+nav .burger-icon {
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    transition: 0.6s;
+}
+
+.footer {
+    font-family: "Mulish";
+    background-color: #FEAE0B;
+    width: auto;
+    height: 710px;
+}
+
+.footer_logo {
+    width: 68px;
+    height: 68px;
+    margin: 25px;
+}
+
+.footer__info {
+    font-family: "Irish Grover";
+    margin-left: 100px;
+    margin-top: -85px;
+}
+
+.footer__sections {
+    margin-left: 40px;
+    margin-top: 80px;
+    line-height: 150%;
+}
+
+.footer__address {
+    margin-left: 40px;
+    margin-top: 30px;
+    line-height: 150%;
+}
+
+.footer__social-title {
+    margin-left: 40px;
+    margin-top: 30px;
+    line-height: 150%;
+}
+
+.footer__social-icon {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.orange-bar {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(231, 122, 27);
+    opacity: 0.64;
+}
+
+.orange-bar-1 {
+    margin-top: -35px;
+    margin-left: 27px;
+    width: 36.5%;
+    height: 14px;
+}
+
+.section__title {
+    color: white;
+    margin-left: 28px;
+}
+
+.section__description {
+    color: white;
+    font-family: "Mulish";
+    margin-left: 28px;
+    line-height: 22px;
+    margin-right: 28px;
+}
+
+.section__dl {
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.section__file {
+    color: white;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.section-description__dl {
+    color: white;
+    font-family: "Mulish";
+    margin-left: 28px;
+    line-height: 22px;
+    margin-right: 28px;
+    margin-top: 60px;
+}
+
+.cta-section__button a{
+    text-decoration: none;
+    color: white;
+    border: 3px solid #F56128;
+}
+
+.cta-section__button {
+    background-color: #F56128;
+    border: 3px solid white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13px;
+}
+
+.cta-section__button-second {
+    margin-left: 113px;
+}
+
+.arrow {
+    background: white;
+    height: 0.1em;
+    width: 1.5em;
+    margin-right: 1em;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.arrow::before,
+.arrow::after {
+    position: absolute;
+    content: "";
+    background: white;
+    height: 0.1em;
+    width: 0.4em;
+    right: 0;
+    top: 0;
+}
+
+.arrow::before {
+    transform: rotate(45deg);
+    transform-origin: right bottom;
+}
+
+.arrow::after {
+    transform: rotate(-45deg);
+    transform-origin: right top;
+}
+
+.cta-section__button:hover .arrow {
+    width: 2em;
+}
+
+.cta-section__text {
+    color: white;
+    margin-left: 20px;
+}

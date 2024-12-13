@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'accueil</title>
+    <title>Programme</title>
     <script src="src/js/menu.js" defer></script>
     <script> src="src/js/script.js"</script>
-    <link rel="stylesheet" href="src/css/Page d'accueil.css">
+    <link rel="stylesheet" href="src/css/Programme.css">
     <link rel="icon" type="image/png" href="assets/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
     <link rel="shortcut icon" href="/assets/favicon.ico" />
@@ -48,27 +48,32 @@
     </section>
     </div>
     <main class="main content">
-        <section class="section programme">
+        <section class="section-programme">
             <h1 class="section__title"> Programme </h1>
+            <div class="orange-bar orange-bar-1"></div>
             <p class="section__description"> Durant ce festival sur le thème halloween, nous diffuserons bon nombre de films, de genre horreur pour passer une bonne fête d’horreur.</p>
             <img src="media/image_2.webp" alt="image représentant des citrouilles pour halloween" class="section__image" loading="lazy">
         </section>
         <section class="section details">
             <p class="section__description"> Pour célébrer halloween de la manière la plus adaptée, nous diffuserons donc uniquement des films de genre horreur et le meilleur temps pour se faire peur est la nuit, c’est pour cette raison que le festival sera ouvert à partir de 18h et le dernier film se finira dans les alentours de 6h du matin.</p>
-            <img src="media/image_3.webp" alt="image représentant un festival de nuit" class="section__description" loading="lazy">
+            <img src="media/image_3.webp" alt="image représentant un festival de nuit" class="section__image" loading="lazy">
         </section>
         <section class="section download">
             <p class="section__description"> Pour voir le programme des films, vous pouvez le télécharger ici</p>
             <p class="section__file"> <b> Programme.pdf</b></p>
-            <img src="media/image_4.webp" alt="fichier pdf à télécharger (non fonctionnel)" class="section__image" loading="lazy">
+            <img src="media/image_4.webp" alt="fichier pdf à télécharger (non fonctionnel)" class="section__dl" loading="lazy">
         </section>
-        <section class="section summary">
-            <p class="section__description"> Pour voir un court résumé des films proposés, cliquez ici </p>
-            <button class="btn btn-primary"> 
-                <a href="Films.html" class="btn__link"> Films </a>
+    </section>
+    <div class="cta-section-container">
+        <section class="cta-section">
+            <p class="cta-section__text"> <b> Pour voir un court résumé des films proposés, cliquez ici </b></p>
+            <div class="cta-section__button-second">
+            <button class="cta-section__button">
+                <a href="Films.html" class="cta-section__button"> <div class="arrow"></div>Films</a> 
             </button>
         </div>
-    </section>
+        </section>
+    </div>
 </main>
     <div class="footer-container">
         <footer class="footer">
