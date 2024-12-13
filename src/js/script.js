@@ -14,3 +14,6 @@ function closeNav() {
     console.log("Fermeture du menu");
     header__menu.classList.remove("active")
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    const carousels = document.querySelectorAll('.carousel');

@@ -15,9 +15,9 @@
 <body>
     <div class="header-container">
         <header class="header">
-            <a href="index.html" class="header__logo cta">
-                <img src="media/group_2.webp" alt="Cliquable pour page d'accueil" class="header__logo-img"></a>
-            <img src="media/search_3.webp" alt="pour chercher un article  en particulier" class="header__search-icon">
+            <a href="index.html" class="header__logo cta" loading="lazy">
+                <img src="media/group_2.webp" alt="Cliquable pour page d'accueil" class="header__logo-img" loading="lazy"></a>
+            <img src="media/search_3.webp" alt="pour chercher un article  en particulier" class="header__search-icon" loading="lazy">
             <nav id="Myheader__menu" class="header__menu">
                 <a id="closebtn" href="#" class="close">×
                 </a>
@@ -36,7 +36,7 @@
                         <a href="A propos.html" class="menu__link">A propos</a></li>
                 </ul>
             </nav>
-            <a href="#" id="openbtn">
+            <section class="openbtn">
             <span class="burger-icon">
                 <span></span>
                 <span></span>
@@ -44,10 +44,11 @@
             </span>
             </a>
         </header>
+    </section>
     </div>
     <div class="presentation-container">
         <section class="presentation">
-            <img src="media/designer_4_1.webp" alt="image illustrant un festival d'halloween pour représenter le festival" class="presentation__image">
+            <img src="media/designer_4_1.webp" alt="image illustrant un festival d'halloween pour représenter le festival" class="presentation__image" loading="lazy">
             <h1 class="presentation__title"> Notre Présentation </h1>
             <p class="presentation__text"> Beaucoup d’entre nous aime regarder des films d’horreur. On aime avoir peur, se faire suspendre, ressentir une certaine tension tout au long du film,... C’est pourquoi nous avons décidé d’organiser un festival de films focalisé sur l’horreur et l’épouvante, pour faire plaisir à un grand nombre d’entre nous.</p>
         </section>
@@ -63,6 +64,35 @@
             <p class="schedule__text">On projettera différents types de films d’horreur, qui dureront de 18h a 6h, toute la durée du festival pendant 3 jours à la rue piétonne de Montbéliard. </p>
         </section>
     </div>
+    <section class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="media/affiche_film_d_horreur_3_1.webp" alt="affiche de the exorcist" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+                <img src="media/affiche_film_d_horreur_1.webp" alt="affiche de ça chapitre 2" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+                <img src="media/affiche_film_d_horreur_2_1.webp" alt="affiche de smile" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+                <img src="media/affiche_film_d_horreur_4_1.webp" alt="affiche de thanksgiving" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+                <img src="media/affiche_film_d_horreur_5_1.webp" alt="affiche de krampus" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+                <img src="media/affiche_film_d_horreur_6_1.webp" alt="affiche de the conjuring annabelle" loading="lazy">
+            </div>
+            <div class="carousel-slide">
+                <img src="media/affiche_film_d_horreur_7_1.webp" alt="affiche de terrifier 3" loading="lazy">
+            </div>
+        </div>
+        <div class="carousel-buttons">
+            <button class="carousel-button prev">❮</button>
+            <button class="carousel-button next">❯</button>
+        </div>
+    </section>
     <div class="target-audience-container">
         <section class="target-audience">
             <p class="target-audience__title"> Nos publics visés sont :</p>
