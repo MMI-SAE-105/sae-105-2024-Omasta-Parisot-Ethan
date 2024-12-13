@@ -258,6 +258,13 @@ nav .burger-icon {
     display: inline-block;
 }
 
+.carousel-container {
+    display: flex;
+    overflow: hidden; /* Empêche les éléments de déborder */
+    max-width: 80%; /* Limite la largeur du carrousel à 80% de la largeur de la fenêtre */
+    margin: 0 auto; /* Centre le carrousel horizontalement */
+}
+
 .orange-bar {
     width: 100%;
     height: 50px;
@@ -288,5 +295,71 @@ nav .burger-icon {
 }
 
 .presentation__text {
-    
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: "Mulish";
+    line-height: 25px;
+}
+
+.festival-info__text {
+    color: white;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    font-family: "Mulish";
+    line-height: 30px;
+}
+
+.schedule__text {
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "Mulish";
+    line-height: 25px;
+}
+
+.target-audience__title {
+    margin-left: 28px;
+    color: white;
+    font-family: "Mulish";
+    line-height: 25px;
+}
+
+.target-audience__list ul {
+    margin-left: 28px;
+}
+
+.target-audience__item {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.location__image {
+    margin-left: 63px;
+}
+
+.location__text {
+    color: white;
+    margin-left: 28px;
+    font-family: "Mulish";
+    line-height: 25px;
+}
+
+.attraction__image {
+    margin-left: 35px;
+}
+
+.attraction__text {
+    margin-left: 28px;
+    color: white;
+    font-family: "Mulish";
+    line-height: 25px;
+}
+
+.cta-section__text {
+    color: white;
+    margin-left: 20px;
+    margin-top: 80px;
+    font-family: "Mulish";
+    line-height: 22px;
 }
