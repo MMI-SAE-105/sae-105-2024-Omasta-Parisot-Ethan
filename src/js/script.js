@@ -17,3 +17,4 @@ function closeNav() {
 
 document.addEventListener('DOMContentLoaded', () => {
     const carousels = document.querySelectorAll('.carousel');
+})
